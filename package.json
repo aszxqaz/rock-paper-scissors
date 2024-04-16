@@ -1,0 +1,25 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "Rock - Paper - Scissors",
+  "main": "index.js",
+  "scripts": {
+    "start-3": "nodemon src/main.ts -- Rock Paper Scissors",
+    "start-2": "nodemon src/main.ts -- Rock Paper",
+    "start-7": "nodemon src/main.ts -- Rock Paper Scissors 4th 5th 6th 7th",
+    "build": "tsc"
+  },
+  "author": "Maxim Butenko (https://github.com/aszxqaz)",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@noble/hashes": "^1.4.0",
+    "ascii-table": "^0.0.9",
+    "chalk": "^4",
+    "console-table-printer": "^2.12.0"
+  }
+}
